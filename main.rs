@@ -26,6 +26,8 @@ fn main() {
         status : TaskStatus::ToDo,
     };
 
+    new_task2.change_task_status(TaskStatus::InProgress);
+
     new_task_manager.add_task(1, new_task1);
     new_task_manager.add_task(2, new_task2);
 
